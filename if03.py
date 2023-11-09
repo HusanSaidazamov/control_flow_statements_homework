@@ -5,5 +5,20 @@ def main(a):
         a: integer
     Returns:
         a: integer
+ 
+     Agar raqam ijobiy bo'lsa, uni 1 ga oshiring, aks holda 2 ga kamaytiring. Agar u 0 bo'lsa, 10 ni belgilang.
+     Args:
+         a: butun son
+     Qaytaradi:
+         a: butun son
     """
-    return
+
+    if a > 0:
+        return a + 1
+    elif a < 0:
+        return a - 2
+    else:
+        return 10 
+print(main(3))
+print(main(-9))  # Natija: -5
+print(main(0))  # Natija: 10    
