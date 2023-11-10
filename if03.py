@@ -15,10 +15,10 @@ def main(a):
 
     if a > 0:
         return a + 1
-    elif a < 0:
+    if a< 0:
         return a - 2
-    else:
-        return 10 
+    
+    return 10 
 print(main(3))
-print(main(-9))  # Natija: -5
+print(main(-9))  # Natija: -11
 print(main(0))  # Natija: 10    

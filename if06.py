@@ -19,25 +19,25 @@ def main(a, b, c):
 
     if a > 0:
         musbat_sonlar += 1
-    elif a < 0:
+    if a < 0:
         manfiy_sonlar += 1
 
     if b > 0:
         musbat_sonlar += 1
-    elif b < 0:
+    if b < 0:
         manfiy_sonlar += 1
 
     if c > 0:
         musbat_sonlar += 1
-    elif c < 0:
+    if c < 0:
         manfiy_sonlar += 1
 
     if musbat_sonlar > manfiy_sonlar:
         return "Ijobiy raqamlar juda ko'p"
-    elif manfiy_sonlar > musbat_sonlar:
+    if manfiy_sonlar > musbat_sonlar:
         return "Manfiy raqamlar juda ko'p"
-    else:
-        return "Ijobiy va manfiy raqamlar teng"
+    
+    return "Ijobiy va manfiy raqamlar teng"
 
 a = int(input("a: "))
 b = int(input("b: "))

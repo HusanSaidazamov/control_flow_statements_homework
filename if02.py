@@ -15,7 +15,7 @@ def main(a):
     """
     if a > 0:
         return a + 1
-    elif a < 0:
-        return a - 2
+    
+    return a - 2
 print(main(5))
 print(main(-1))

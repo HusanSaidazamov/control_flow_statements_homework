@@ -12,8 +12,8 @@ def main(a):
      Qaytaradi:
          a: agar ijobiy bo'lsa, 1 ga oshdi, boshqasi o'zgarmaydi.
     """
-    if True:
-        a > 0  
-        a += 1  
-    return a
+    if a > 0:
+        
+       return   a+1
+    return a  
 print(main(5))
