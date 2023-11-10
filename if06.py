@@ -36,12 +36,9 @@ def main(a, b, c):
         return "Ijobiy raqamlar juda ko'p"
     if manfiy_sonlar > musbat_sonlar:
         return "Manfiy raqamlar juda ko'p"
-    
-    return "Ijobiy va manfiy raqamlar teng"
-
-a = int(input("a: "))
-b = int(input("b: "))
-c = int(input("c: "))
+a =3
+b = 2
+c = -1
 
 Z = main(a, b, c)
 print(Z)
