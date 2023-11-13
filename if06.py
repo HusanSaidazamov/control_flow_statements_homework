@@ -33,9 +33,9 @@ def main(a, b, c):
         manfiy_sonlar += 1
 
     if musbat_sonlar > manfiy_sonlar:
-        return "Ijobiy raqamlar juda ko'p"
+        return "there are a lot of positive numbers"
     if manfiy_sonlar > musbat_sonlar:
-        return "Manfiy raqamlar juda ko'p"
+        return "there are a lot of negative numbers"
 a =3
 b = 2
 c = -1
