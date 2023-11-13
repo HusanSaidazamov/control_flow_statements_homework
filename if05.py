@@ -19,9 +19,9 @@ def main(a,b,c):
 
     return manfiy
 
-a = int(input("a: "))
-b = int(input("b: "))
-c = int(input("c: "))
+a = -2
+b = -2
+c = 0
 
 manfiy = main(a, b, c)
 print("Berilgan sonlarda", manfiy, " ta manfiy son")

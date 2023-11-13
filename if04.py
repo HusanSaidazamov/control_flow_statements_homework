@@ -21,9 +21,9 @@ def main(a,b,c):
 
     return musbat
 
-a = int(input("a: "))
-b = int(input("b: "))
-c = int(input("c: "))
+a = 4
+b = -2
+c = 1
 
 musbat = main(a, b, c)
 print("Berilgan sonlarda", musbat, " ta musbat son")
