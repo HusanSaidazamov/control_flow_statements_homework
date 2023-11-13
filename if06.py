@@ -40,5 +40,5 @@ a =3
 b = 2
 c = -1
 
-Z = main(a, b, c)
-print(Z)
+
+print(main(a, b, c))
